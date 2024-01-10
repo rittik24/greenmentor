@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import './sidebar.css';
@@ -7,6 +7,7 @@ import energy from "../assets/energy.png";
 import water from "../assets/water.png";
 import waste from "../assets/waste.png"
 const Sidebar = () => {
+
     return (
         <Navbar expand="lg" className="sidebar">
             <div className="sidebar-header">
@@ -30,10 +31,10 @@ const Sidebar = () => {
                         />
                     </div>
                     <NavDropdown title="Energy" className="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Category 1</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Category 1</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Category 1</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Category 1</NavDropdown.Item>
+                        <NavDropdown.Item >Category 1</NavDropdown.Item>
+                        <NavDropdown.Item >Category 1</NavDropdown.Item>
+                        <NavDropdown.Item >Category 1</NavDropdown.Item>
+                        <NavDropdown.Item >Category 1</NavDropdown.Item>
                     </NavDropdown>
 
                 </div>

@@ -35,6 +35,7 @@ const NavbarComponent = () => {
 
             </div>
         </div>
+       
     )
 }
 

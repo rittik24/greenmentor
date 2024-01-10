@@ -14,7 +14,7 @@ const Cardelement = () => {
                     <text >contribution to Scope3</text>
                 </div>
                 <div className='value-details'>
-                    <input type="text" value={1000} disabled />
+                    <input type="text" value={39699} disabled />
                 </div>
             </Card>
             <Card className='cards'>
@@ -26,7 +26,7 @@ const Cardelement = () => {
                     <text >contribution to Scope3</text>
                 </div>
                 <div className='value-details'>
-                    <input type="text" value={1000} disabled />
+                    <input type="text" value={136.0} disabled />
                 </div>
             </Card>
             <Card className='cards'>
@@ -38,7 +38,7 @@ const Cardelement = () => {
                     <text >contribution to Scope3</text>
                 </div>
                 <div className='value-details'>
-                    <input type="text" value={1000} disabled />
+                    <input type="text" value={"32%"} disabled />
                 </div>
             </Card>
             <Card className='lastcards'>
